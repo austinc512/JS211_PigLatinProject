@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title></title>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
+    <h1>Pig Latin!</h1>
+    <hr />
+    <h3>Input:</h3>
     <div id="display-element"></div>
     <form>
-      <input id="user-input" type="text">
+      <input id="user-input" type="text" />
       <!-- How do you get this input sent to the pigLatin() function? -->
-      <button onclick="pigLatin()">Translate</button>
-    </form>  
-    <hr/>
+      <button id="submit">Translate</button>
+    </form>
+    <hr />
+    <h3>Output:</h3>
+    <p id="log1"></p>
   </body>
 </html>
