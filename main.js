@@ -26,5 +26,5 @@ document.getElementById("submit").addEventListener("click", function (e) {
     output = `${input.slice(1)}${input[0]}ay`;
   }
   // console.log(output);
-  document.getElementById("log1").innerHTML = output;
+  document.getElementById("display-element").innerHTML = output;
 });
